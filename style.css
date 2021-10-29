@@ -232,16 +232,14 @@ body{
 
     .tanyaDesignation h2{
         margin: 0 0.5em;
-        font-size: 0.89em;
-        letter-spacing: 1px;
+        font-size: 0.96em;
         font-weight: 700;
     }
     
     .tanyaDesignation h3{
-        font-size: 0.89em;
+        font-size: 0.96em;
         font-weight: 500;
         color: hsl(240, 18%, 77%);
-        letter-spacing: 1px;
     }
 
 }
@@ -337,16 +335,14 @@ body{
 
     .tanyaDesignation h2{
         margin: 0 0.5em;
-        font-size: 0.89em;
-        letter-spacing: 1px;
+        font-size: 0.96em;
         font-weight: 700;
     }
     
     .tanyaDesignation h3{
-        font-size: 0.89em;
+        font-size: 0.96em;
         font-weight: 500;
         color: hsl(240, 18%, 77%);
-        letter-spacing: 1px;
     }
 
 }
