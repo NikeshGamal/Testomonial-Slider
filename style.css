@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+    /* border: 1px solid black; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("./images/pattern-curve.svg");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 72%;
+}
+
+.container1{
+    background: url("./images/pattern-bg.svg");
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-size: 97%;
+    /* border: 1px solid orange; */
+    margin: 2em auto 0em;
+    padding: 1.9em;
+    width: 90%;
+    max-width: 750px;
+}
+
+.container1 .photoCard{
+    /* border: 1px solid maroon; */
+    margin: 0em auto;
+    display: flex;
+    width: 95%;
+    max-width: 275px;
+    overflow: hidden;
+}
+
+.container1 .photoCard .tanyaPhoto, .johnPhoto{
+    margin: 0em auto;
+    /* border: 1px solid cyan; */
+   min-width: 100%;
+   object-fit: contain;
+   margin-right:2em;
+}
+/********This section is for the slider 
+        changing left property after click******/
+
+/* 
+.tanyaPhoto{
+  position: relative;
+ 
+}
+
+.johnPhoto{
+    position: relative;
+   
+  } */
+
+  .container1 .icon{
+      position:relative;
+      top: -1.2em;
+      /* border: 1px solid firebrick; */
+      width: 86px;
+      background-color: white;
+      margin: 0em auto;  
+      display: flex;
+      justify-content: space-around;
+      padding: 0.5em 0.4em; 
+      border-radius: 50px;
+      box-shadow: -5px 5px 5px hsl(240, 18%, 77%);
+
+  }
+
+  /* .icon .prev,.next{
+     border: 1px solid darkmagenta; 
+} */
+
+
+
+/*------------2nd Container--------------*/
+.quoteBox{
+    /* border: 1px solid firebrick; */
+    width: 86px;
+    margin: 0em auto;  
+    padding: 0.6em 0.8em; 
+}
+
+.quoteBox .quote{
+    margin: 0 auto;
+   width: 94%;
+   position: relative;
+}
+
+.container2{
+    /* border: 1px solid orange; */
+    margin: 1em auto;
+    width: 90%;
+    max-width: 750px;
+    font-family: Inter;
+}
+.container2 .desciption, .designation{
+    position: relative;
+    top: -2.6em;
+    /* border: 1px solid maroon; */
+    margin: 0em auto 1.5em;
+    display: flex;
+    width: 100%;
+    padding: 0.3em 0.5em;
+    /* max-width: 275px; */
+    overflow: hidden;
+}
+
+.container2 .desciption .tanyaDesciption, .johnDesciption,.designation .tanyaDesignation, .johnDesignation{
+    margin: 0em auto;
+    margin: 0 auto;
+    min-width: 100%;
+    /* border: 1px solid darkslateblue; */
+   margin-right:2em;
+   font-size: 1.155rem;
+   text-align: center;
+}
+
+.tanyaDesignation h2{
+    font-size: 0.89em;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.tanyaDesignation h3{
+    font-size: 0.8em;
+    font-weight: 500;
+    color: hsl(240, 18%, 77%);
+    letter-spacing: 1px;
+}
