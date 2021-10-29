@@ -8,6 +8,8 @@
 }
 
 body{
+    margin: 0 auto;
+    max-width: 420px;
     background: url("./images/pattern-curve.svg");
     background-repeat: no-repeat;
     background-position: bottom left;
@@ -131,4 +133,220 @@ body{
     font-weight: 500;
     color: hsl(240, 18%, 77%);
     letter-spacing: 1px;
+}
+
+@media screen and (min-width:798px) and (max-width:1070px){
+    /* *{
+        border: 1px solid maroon;
+    } */
+
+
+    html{
+        width: 100%;
+        height: 100vh;
+        /* border: 3px solid blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    body{
+        /* background-color: cyan; */
+        width: 100%;
+         max-width: 1260px;
+         background-position:bottom left;
+         background-size: 38%;
+         /* border: 2px solid red; */
+    }
+
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .container1{
+        padding: 2.4em;
+        width: 50%;
+        /* border: 1px solid orange; */
+        order:2;
+        background-position:top center;
+        background-size: 95%;
+    }
+
+    .container1 .photoCard{
+        /* border: 1px solid maroon; */
+        margin-top: 1em;
+        width: 85%;
+        max-width:500px;
+    }
+
+
+    .container1 .icon{
+        position:relative;
+        top: -1.2em;
+        left: -4.5em;
+        /* border: 1px solid firebrick; */
+        width: 86px;
+        background-color: white;
+        margin: 0em auto;  
+        display: flex;
+        justify-content: space-around;
+        padding: 0.4em 0.4em; 
+        border-radius: 50px;
+        box-shadow: -5px 5px 5px hsl(240, 18%, 77%);
+  
+    }
+
+    .container2{
+        position: relative;
+        left:12%;
+        width: 50%;
+        max-height: 350px;
+        /* border: 1px solid hotpink; */
+        padding: 1em;
+        order: 1;
+    }
+
+
+    .quoteBox{
+        /* border: 1px solid firebrick; */
+        width: 87px;
+        position: relative;
+        left: -20%; 
+    }
+
+    .container2 .desciption .tanyaDesciption, .johnDesciption{
+       font-size: 1.27rem;
+       text-align: left;
+    }
+
+    .designation{
+        margin-top: -0.5em;
+    }
+    .tanyaDesignation, .johnDesignation{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .tanyaDesignation h2{
+        margin: 0 0.5em;
+        font-size: 0.89em;
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+    
+    .tanyaDesignation h3{
+        font-size: 0.89em;
+        font-weight: 500;
+        color: hsl(240, 18%, 77%);
+        letter-spacing: 1px;
+    }
+
+}
+
+
+@media screen and (min-width:1070px){
+
+    html{
+        width: 100%;
+        height: 100vh;
+        /* border: 3px solid blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    body{
+        width: 100%;
+         max-width: 1260px;
+         background-position:bottom left;
+         background-size: 38%;
+    }
+
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .container1{
+        padding: 2.4em;
+        width: 50%;
+        order:2;
+        background-position:top center;
+        background-size: 95%;
+    }
+
+    .container1 .photoCard{
+        /* border: 1px solid maroon; */
+        margin-top: 1em;
+        width: 85%;
+        max-width:500px;
+    }
+
+
+    .container1 .icon{
+        position:relative;
+        top: -1.2em;
+        left: -4.5em;
+        /* border: 1px solid firebrick; */
+        width: 86px;
+        background-color: white;
+        margin: 0em auto;  
+        display: flex;
+        justify-content: space-around;
+        padding: 0.4em 0.4em; 
+        border-radius: 50px;
+        box-shadow: -5px 5px 5px hsl(240, 18%, 77%);
+  
+    }
+
+    .container2{
+        position: relative;
+        left:16%;
+        width: 50%;
+        max-height: 350px;
+        padding: 1em 3.4em;
+        order: 1;
+        word-spacing: 1px;
+    }
+
+
+    .quoteBox{
+        /* border: 1px solid firebrick; */
+        width: 125px;
+        position: relative;
+        left: -20%; 
+    }
+
+    .container2 .desciption .tanyaDesciption, .johnDesciption{
+       font-size: 1.5rem;
+       text-align: left;
+    }
+
+    .designation{
+        margin-top: -1em;
+    }
+    .tanyaDesignation, .johnDesignation{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .tanyaDesignation h2{
+        margin: 0 0.5em;
+        font-size: 0.89em;
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+    
+    .tanyaDesignation h3{
+        font-size: 0.89em;
+        font-weight: 500;
+        color: hsl(240, 18%, 77%);
+        letter-spacing: 1px;
+    }
+
 }
