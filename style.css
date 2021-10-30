@@ -29,6 +29,7 @@ body{
 }
 
 .container1 .photoCard{
+  
     /* border: 1px solid maroon; */
     margin: 0em auto;
     display: flex;
@@ -38,11 +39,13 @@ body{
 }
 
 .container1 .photoCard .tanyaPhoto, .johnPhoto{
+    position: relative;
     margin: 0em auto;
     /* border: 1px solid cyan; */
    min-width: 100%;
    object-fit: contain;
    margin-right:2em;
+   transition: left 500ms linear;
 }
 /********This section is for the slider 
         changing left property after click******/
@@ -73,9 +76,9 @@ body{
 
   }
 
-  /* .icon .prev,.next{
-     border: 1px solid darkmagenta; 
-} */
+  .icon .prev:hover ,.next:hover{
+       cursor:pointer;
+}
 
 
 
@@ -99,6 +102,7 @@ body{
     width: 90%;
     max-width: 750px;
     font-family: Inter;
+    z-index: 999;
 }
 .container2 .desciption, .designation{
     position: relative;
@@ -113,6 +117,7 @@ body{
 }
 
 .container2 .desciption .tanyaDesciption, .johnDesciption,.designation .tanyaDesignation, .johnDesignation{
+    position: relative;
     margin: 0em auto;
     margin: 0 auto;
     min-width: 100%;
@@ -122,13 +127,13 @@ body{
    text-align: center;
 }
 
-.tanyaDesignation h2{
+.tanyaDesignation h2, .johnDesignation h2{
     font-size: 0.89em;
     letter-spacing: 1px;
     font-weight: 700;
 }
 
-.tanyaDesignation h3{
+.tanyaDesignation h3, .johnDesignation h3{
     font-size: 0.8em;
     font-weight: 500;
     color: hsl(240, 18%, 77%);
@@ -206,6 +211,7 @@ body{
         /* border: 1px solid hotpink; */
         padding: 1em;
         order: 1;
+      
     }
 
 
@@ -228,16 +234,17 @@ body{
         display: flex;
         justify-content: start;
         align-items: center;
+        flex-wrap: wrap;
     }
 
-    .tanyaDesignation h2{
-        margin: 0 0.5em;
-        font-size: 0.96em;
+    .tanyaDesignation h2,.johnDesignation h2{
+        margin: 0.2em 0.5em;
+        font-size: 0.9em;
         font-weight: 700;
     }
     
-    .tanyaDesignation h3{
-        font-size: 0.96em;
+    .tanyaDesignation h3,.johnDesignation h3{
+        font-size: 0.9em;
         font-weight: 500;
         color: hsl(240, 18%, 77%);
     }
@@ -309,6 +316,7 @@ body{
         padding: 1em 3.4em;
         order: 1;
         word-spacing: 1px;
+        z-index: 999;
     }
 
 
@@ -333,13 +341,13 @@ body{
         align-items: center;
     }
 
-    .tanyaDesignation h2{
+    .tanyaDesignation h2, .johnDesignation h2{
         margin: 0 0.5em;
         font-size: 0.96em;
         font-weight: 700;
     }
     
-    .tanyaDesignation h3{
+    .tanyaDesignation h3,  .johnDesignation h3{
         font-size: 0.96em;
         font-weight: 500;
         color: hsl(240, 18%, 77%);
